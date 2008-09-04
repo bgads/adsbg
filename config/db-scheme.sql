@@ -1,6 +1,6 @@
-create table posts (
-    id integer primary key autoincrement,
-    category_id integer,
-    title varchar(255),
-    contents text
+CREATE TABLE posts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    category_id INTEGER,
+    title VARCHAR(255),
+    contents TEXT
 );
